@@ -175,19 +175,19 @@ Overview Dashboard:
 
 By clicking a button or menu option, you open a new tab displaying the selected dashboard information. The following dashboards are supported: 
 
-- **KPIs and Workstations Dashboard**. This dashboard shows the Universal Orchestrator KPIs information for each host and allows drilldown to see the timeseries data in visual representation for defined KPIs.
+- **KPIs and Workstations**. This dashboard shows the Universal Orchestrator KPIs information for each host and allows drilldown to see the timeseries data in visual representation for defined KPIs.
 
   Source of Information: API exposed by all the pods on port 8443.
    
-- **Activity Monitoring Dashboard**. This dashboard shows details of workstations and audit information such as user actions. Users can view audit information for selected time range, user and object. 
+- **Activity Monitoring**. This dashboard shows details of workstations and audit information such as user actions. Users can view audit information for selected time range, user and object. 
 
   Source of Information:  UnO sidecar audit containers, for example: audit-log-sidecar. 
 
-- **Infra Monitoring Dashboard**. This dashboard provides an overview of the infrastructure details of Universal Orchestrator deployed on Kubernetes cluster. Filter by your Kubernetes namespace and view the dashboard as shown below:
+- **Infra Monitoring**. This dashboard provides an overview of the infrastructure details of Universal Orchestrator deployed on Kubernetes cluster. Filter by your Kubernetes namespace and view the dashboard as shown below:
  ![](screenshots/infra-filter.PNG)
   Source of Information: Infrastructure Logs exposed by Kubernetes cluster. 
 
-- **Alerts**. The UnO monitoring application comes with predefined alerts configured as an example. Users can navigate to alerts page and easily enable/disable these alerts when needed. The statistical reports and graphical visualizations of the alerts created for UnO application can be viewed in UnO Alerts dashboard. Follow this [Splunk documentation](https://docs.splunk.com/Documentation/Splunk/8.2.4/Analytics/Alerts) to manage alerts (create new, enable & disable etc...). in Splunk application.
+- **Alerts Dashboard**. The UnO monitoring application comes with predefined alerts configured as an example. Users can navigate to alerts page and easily enable/disable these alerts when needed. The statistical reports and graphical visualizations of the alerts created for UnO application can be viewed in UnO Alerts dashboard. Follow this [Splunk documentation](https://docs.splunk.com/Documentation/Splunk/8.2.4/Analytics/Alerts) to manage alerts (create new, enable & disable etc...). in Splunk application.
 Follow this [Splunk documentation](https://docs.splunk.com/Documentation/Splunk/8.2.4/Alert/Emailnotification)  to configure the email setting in Splunk application.
 
 The following table shows some of the out-of-the-box alert definitions that come with the UnO Monitoring Application:
