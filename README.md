@@ -274,5 +274,3 @@ https://github.com/signalfx/splunk-otel-collector-chart/blob/main/docs/troublesh
     
       A: A frequently triggered alert indicates that the alert is configured with a low throttle time (time interval). You can increase the throttle time by editing the alert, selecting the throttle checkbox, and entering *Suppress triggering for* the time interval needed between the subsequent triggers of the alert. For example, if *Suppress triggering for* is set to 1 hour, the alert is triggered every hour.
   
-#   D o c u m e n t a t i o n - f o r - U n O - O b s e r v a b i l i t y - f o r - S p l u n k  
- 
