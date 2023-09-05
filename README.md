@@ -69,6 +69,7 @@ For more information about installing app from file, refer to [Splunk documentat
   
  
 #### b. Create HEC Token
+- The HEC Token for this application was `uno_hec_token` , if you need to create a new HEC Token follow the below steps.
 - Create an HEC token in Splunk following the steps listed in this [documentation](https://docs.splunk.com/Documentation/Splunk/9.0.1/Data/UsetheHTTPEventCollector#Configure_HTTP_Event_Collector_on_Splunk_Enterprise).
 - Configure HEC token to send data to "uno-logs" index.
   >- Select "Settings"
